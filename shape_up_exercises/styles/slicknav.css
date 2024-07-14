@@ -5,14 +5,13 @@
 .slicknav_btn {
 	position: relative;
 	display: block;
-	vertical-align: middle;
 	float: right;
 	padding: 0.438em 0.625em 0.438em 0.625em;
 	line-height: 1.125em;
 	cursor: pointer;
 }
 .slicknav_menu .slicknav_menutxt {
-	display: block;
+	display:block;
 	line-height: 1.188em;
 	float: left;
 }
@@ -66,8 +65,7 @@
 }
 /* IE6/7 support */
 .slicknav_menu {
-*zoom: 1
-}
+zoom: 1;}
 /* 
     User Default Style
     Change the following styles to modify the appearance of the menu.
@@ -75,6 +73,7 @@
 
 .slicknav_menu {
 	font-size: 16px;
+
 }
 /* Button */
 .slicknav_btn {
@@ -84,21 +83,22 @@
 	-webkit-border-radius: 4px;
 	-moz-border-radius: 4px;
 	border-radius: 4px;
-	background-color: #222222;
+	background-color:steelblue;
 }
 /* Button Text */
 .slicknav_menu .slicknav_menutxt {
-	color: #FFF;
+	color:white;
 	font-weight: bold;
 	text-shadow: 0 1px 3px #000;
 }
 /* Button Lines */
 .slicknav_menu .slicknav_icon-bar {
-	background-color: #f5f5f5;
+	background-color:white;
 }
 .slicknav_menu {
-	background: #4c4c4c;
+	background:steelblue;
 	padding: 5px;
+	
 }
 .slicknav_nav {
 	color: #fff;
@@ -141,7 +141,4 @@
 	border-radius: 6px;
 	background: #ccc;
 	color: #222;
-}
-.slicknav_nav .slicknav_txtnode {
-	margin-left: 15px;
 }
