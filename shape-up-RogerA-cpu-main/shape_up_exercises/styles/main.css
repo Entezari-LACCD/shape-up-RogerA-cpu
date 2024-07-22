@@ -41,7 +41,7 @@ a:hover, a:focus {color:maroon;}
         clear:both;
     }
 
-/*
+
 #nav_menu ul {list-style:none;
     position:relative;}
 #nav_menu ul li {float:left;}
@@ -59,8 +59,8 @@ a:hover, a:focus {color:maroon;}
     display:block;
     clear:both;
 }
+section{float: right;}
 
-*/
 ul { line-height: 1.5; }
 li, p { font-size: 95%; } 
 em { font-weight: bold; }
