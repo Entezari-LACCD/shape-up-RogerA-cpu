@@ -14,6 +14,7 @@ a:hover, a:focus {color:maroon;}
 #nav_menu{clear:left;
     border-bottom: 2px solid steelblue;
 }
+
 #nav_menu ul {list-style:none;
     position:relative;
 }
@@ -30,8 +31,6 @@ a:hover, a:focus {color:maroon;}
     background-color: steelblue;
     font-weight: bold;
     color: white;
-
-
 }
 #nav_menu ul li:hover > ul {
     display:block;}
@@ -58,7 +57,7 @@ a:hover, a:focus {color:maroon;}
     content:"";
     display:block;
     clear:both;
-}
+}*/
 section{float: right;}
 
 ul { line-height: 1.5; }
