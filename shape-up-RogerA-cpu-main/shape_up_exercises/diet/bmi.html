@@ -2,14 +2,92 @@
 
 <html lang="en">
 <head>
-	<meta charset="utf-8">
-	<title>Shape Up! | BMI</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Shape Up!</title>
+	<link rel="shortcut icon" href="images/favicon.ico">
+	<link rel="stylesheet" href="../styles/bmi.css">
+	<script src="../js/bmi.js"></script>
+	
 </head>
-
 <body>
-	<main>
-	    <h1>Body Mass Index</h1>
-		<h2>Under Construction</h2>
-	</main>
-</body>
+
+<header>
+	<img src="../images/shape_up_logo.webp" alt="shape_up_logo">
+	<h2>Shape Up!</h2>
+	<h3>Find the best fit for you</h3>
+</header>
+<nav id="nav_menu">
+	<ul>
+	   <li><a href="index.html">Home</a></li> 
+	   <li><a href="strength/index.html">Strength Training</a></li>
+	   <li><a href="cardio/index.html">Cardio Exercises</a></li> 
+	   <li><a href="stress/index.html">Stress Relief</a></li>
+	   <li><a href="../shape_up_exercises/diet/meals.html" class="current">Healthy Diets</a></li>
+			<ul>
+   
+			   <li><a href="stress/index.html">What is Stress?</a></li>
+			   <li><a href="stress/tips.html">5 Helpful Tips</a></li>
+			   <li><a href="stress/meditate.html">Meditation</a></li>
+			   <li><a href="stress/vipassana.html">vipassana</a></li>
+		 </ul>
+	
+		 <ul>
+			<li><a href="diet/index.html">Healthy Diets</a></li>
+		   <li><a href="diet/index.html">Why a Healthy Diet?</a></li>
+		   <li><a href="diet/meals.html">Plan Your Meals</a></li>
+		   <li><a href="diet/calories.html">Count Your Calories</a></li>
+		   <li><a href="diet/bmi.html">Calculate Your BMI</a></li>
+		   
+		</ul>
+		   
+   
+</nav>
+
+	<section>
+		<h1><strong>What is a Body Mass Index?</strong></h1>
+
+		<p>Body mass index (BMI) is a measure of a person's body fat based on his or her height and weight. 
+			It can be used to determine if you are underweight, normal, overweight, or obese.</p>
+					
+		<h3 style="color: maroon;">Calculate your Body Mass Index</h3>
+				
+		<p> Use the form that follows to calculate your BMI:</p>
+	
+		<fieldset>
+			<legend>Enter  Your Information</legend>
+		 Height:<input type="text" id="feet" size="7"autofocus>
+		  <input type="text" id="inch" size="7">in<br>
+        Weight:<input type="text" id="weight" size="7">lbs<br>
+		BMI:<input type="text" id="bmi_result" size="7"><br>
+		<input type="button" id="calculate" value="Calculate">
+		<input type="submit" id="submit" value="Submit">
+       </fieldset>   
+		<h3 style="color: maroon;">What do my results mean? Health authorities agree that:</h3>
+		
+		<ul>
+		<li>People with a BMI of less than 18.5 are underweight.</li>
+		<li>A BMI of between 18.5 and 25 is ideal.</li>
+		<li>People with a BMI between 25 and 30 are considered overweight.</li>
+		<li>People with a BMI over 30 are considered obese.</li>
+		</ul>
+		   
+		</section>
+
+	
+     <aside>
+	<h2 style="color: maroon;">Additonal resources</h2>
+	<ul>
+	<li><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9710390/">Phyiscal activity and health</a></li>
+	<li><a href="https://www.mayoclinic.org/healthy-lifestyle/fitness/in-depth/stretching/art-20546848">Stretching exercises</a></li>
+	<li><a href="https://www.verywellfit.com/complete-beginners-guide-to-strength-training-1229585">Strength training</a></li>
+	<li><a href="https://www.healthline.com/health/fitness-exercise/cardio-exercises-list">Cardiovascular training</a></li>
+	<li><a href="https://www.self.com/gallery/power-yoga-workout">Yoga workout</a></li>
+	</ul>
+	 </aside>
+
+	<footer>
+	<p>(c) 2022 Shape Up!</p>
+	</footer>
+ </body>
 </html>
